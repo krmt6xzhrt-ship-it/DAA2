@@ -1,5 +1,5 @@
 # Assignment 2: In-Memory Workload Engine
-**ABDUBEK ALINA | SE2516**
+**ABDUBEK ALINA | SE2516
 
 ## 1. Implementation and complexity
 DynamicArray and MinHeap use primitive int arrays with initial capacity 4 and double capacity when full. MyLinkedList is singly linked and stores primitive int values in nodes. It keeps both head and tail, so appending is constant time. No Java collection is used to implement the structures. Indices are zero-based. Invalid indices throw IndexOutOfBoundsException and empty heap operations throw IllegalStateException.

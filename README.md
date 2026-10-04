@@ -1,8 +1,6 @@
 # Assignment 2 - Data Structures
 Author: ABDUBEK ALINA  
-Group: SE2516 (assumed; change if needed)
-
-Java 17, Maven and Python 3 with matplotlib are required.
+Group: SE2516 
 
 ## Run
 ```sh
@@ -31,5 +29,3 @@ List setup is excluded from W1-W3 timing and counters. W4 includes insertion, ex
 
 ## Test coverage
 Four JUnit tests check random operations against ArrayList and PriorityQueue, empty and singleton cases, duplicates, first and last positions, invalid indexes, extreme int values, sorted heap output, heap property after every random operation and exact small counter examples.
-
-The attached assignment limits AI use to debugging and explanations. This generated project must be reviewed against that rule before submission.
