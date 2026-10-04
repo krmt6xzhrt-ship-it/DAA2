@@ -19,6 +19,6 @@ for workload in ["W1","W2","W3","W4"]:
             ax=axes[r,c];ax.set_xscale("log");ax.set_xlabel("n (elements)");ax.grid(True,alpha=.25);ax.legend(fontsize=8)
             ax.set_title(workload+(" / "+variant if variant!="-" else ""))
         axes[r,0].set_ylabel("Median time (ms)")
-        axes[r,1].set_ylabel("Operations (count)");axes[r,1].set_yscale("symlog",linthresh=1)
+        axes[r,1].set_ylabel("Operations (count)");axes[r,1].set_yscale("symlog",linthresh=1);axes[r,1].set_ylim(bottom=0)
     fig.tight_layout();Path("results/plots").mkdir(parents=True,exist_ok=True)
     fig.savefig("results/plots/"+workload+".png",dpi=160);plt.close(fig)
